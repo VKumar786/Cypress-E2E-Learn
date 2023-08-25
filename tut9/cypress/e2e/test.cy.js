@@ -61,7 +61,7 @@ describe('Alerts', () => {
     it.skip('Prompt Alert - By Default Ok Btn', () => {
         cy.visit(url)
 
-        //? this event will be tirgger before opening window open
+        //? this event will be trigger before opening window open
         cy.window().then((win) => {
             cy.stub(win, 'prompt').returns('welcome Home')
         })
@@ -69,7 +69,7 @@ describe('Alerts', () => {
         cy.get(':nth-child(3) > button')
             .click()
 
-        //? default behaviour - ~ Need of this
+        //? default behavior - ~ Need of this
         cy.on('window:confirm', () => true)
 
         cy.get('#result')
@@ -79,7 +79,7 @@ describe('Alerts', () => {
     it.skip('Prompt Alert - By Cancel Btn', () => {
         cy.visit(url)
 
-        //? this event will be tirgger before opening window open
+        //? this event will be trigger before opening window open
         cy.window().then((win) => {
             cy.stub(win, 'prompt').returns('welcome Home')
         })

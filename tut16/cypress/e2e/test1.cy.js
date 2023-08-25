@@ -4,7 +4,7 @@ import * as data from '../fixtures/praticeData.json'
 
 describe('MyTestSuite', () => {
   let url = `https://practice.expandtesting.com/login`
-  //? Brute Method Accesss
+  //? Brute Method Access
   it('FixturesDemoTest1', () => {
     cy.visit(url)
 

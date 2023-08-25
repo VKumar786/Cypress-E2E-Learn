@@ -85,7 +85,7 @@ describe('template spec', () => {
 
   });
 
-  it('Paginations', () => {
+  it('pagination', () => {
     let totalPages = -1;
 
     cy.get('.row > .text-end')

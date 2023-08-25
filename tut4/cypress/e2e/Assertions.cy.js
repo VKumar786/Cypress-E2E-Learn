@@ -7,26 +7,32 @@ describe('Assertions', () => {
         //? should       and
         /*
             ? include, contain work are same
-            cy.url().should('include', '/login?')
-            cy.url().should('eq', url)
-            cy.url().should('contain', '/login?')
+            cy.url()
+                .should('include', '/login?')
+            cy.url()
+                .should('eq', url)
+            cy.url()
+                .should('contain', '/login?')
         */
 
         /*
             ? multiple checking of validation
-            cy.url().should('include', '/login?')
-            .should('eq', url)
-            .should('contain', '/login?')
+            cy.url()
+                .should('include', '/login?')
+                .should('eq', url)
+                .should('contain', '/login?')
          */
 
         /*
             ? ~ contain, and work same as should
-            cy.url().should('include', '/login?')
-            .and('eq', url)
-            .and('contain', '/login?')
-            .and('not.contain', 'vishal')
+            cy.url()
+                .should('include', '/login?')
+                .and('eq', url)
+                .and('contain', '/login?')
+                .and('not.contain', 'vishal')
 
-            cy.title().should('include', 'Sign in to GitHub · GitHub')
+            cy.title()
+                .should('include', 'Sign in to GitHub · GitHub')
                 .and('contain', 'Sign in to GitHub · GitHub')
         */
 
@@ -46,8 +52,10 @@ describe('Assertions', () => {
         //? Number of link in web page 
         cy.get('a').should('have.length', 110)
 
-        cy.get('#user_email').type("Admin")
-        cy.get('#user_email').should('have.value', "Admin")
+        cy.get('#user_email')
+            .type("Admin")
+        cy.get('#user_email')
+            .should('have.value', "Admin")
 
     });
 }); 

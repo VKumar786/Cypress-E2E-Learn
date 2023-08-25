@@ -13,6 +13,7 @@
             })
             ...n testcase
         })
+    ? npx cypress open -> Most Important command
     ? npx cypress run -> for cmd line run of all files
     ? npx cypress run --headed -> run in browser
     ? npx cypress run --spec C:\Users\hp\Desktop\cypress\tut2\cypress\e2e\myFirstDeskt.cy.js (for specific file with cmd)
@@ -22,6 +23,6 @@
     ? npx cypress run --browser chrome --headed
 
     ! Theory
-    * testSuite --> TestCase -- Test Steps
+    * testSuite --> TestCase --> Test Steps
     * Spec File(cy.js) --> describe blocks(test suites) --> it blocks (test)
 */

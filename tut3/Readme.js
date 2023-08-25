@@ -13,7 +13,6 @@
         * tag class attribute - [       .class[attribute='value'] |     tag.class[attribute='value'] ]
     ? XPath
         * npm i cypress-xpath
-        * 
     ! support -> commands.js
         * /// <reference types="Cypress"/>
         * /// <reference types="cypress-xpath"/>

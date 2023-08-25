@@ -10,6 +10,8 @@
                 * have.length
             * and
         * explicit assertions
-            * expect - 
+            * expect
             * assert
+    ! DOCS
+        * https://docs.cypress.io/guides/references/assertions
  */

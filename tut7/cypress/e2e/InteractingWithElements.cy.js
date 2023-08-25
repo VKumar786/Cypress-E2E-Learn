@@ -67,7 +67,7 @@ describe('Check UI Elements Radio & Checkbox', () => {
       .uncheck({ force: true })
       .should('not.be.checked')
 
-    //? Selecting particular First and Last checkboxses
+    //? Selecting particular First and Last checkboxes
     cy.get(`.custom-control-input[type$='checkbox']`).first()
       .check({ force: true })
       .should('be.checked')

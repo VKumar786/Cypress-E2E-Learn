@@ -1,5 +1,5 @@
 /*
-    TODO: Assertions - these are statement we can to verfiy like title
+    TODO: Assertions - these are statement we can to verify like title
     ? type
         * implicit assertions
             * should
@@ -10,7 +10,7 @@
                 * have.length
             * and
         * explicit assertions
-            * expect - BDD ( Behaviour Driven Development Approach)
+            * expect - BDD ( Behavior Driven Development Approach)
             * assert - TDD ( Test Driven Development Approach )
     ! Assertion docs 
         * https://docs.cypress.io/guides/references/assertions
