@@ -1,6 +1,15 @@
-Learning Path For Cypress
+# Learning Path For Cypress from Youtube
+    > https://www.youtube.com/watch?v=DEqiMEvJvV4&list=PLUDwpEzHYYLvA7QFkC1C0y0pDPqYS56iU&index=3&ab_channel=SDET-QAAutomationTechie'''
 
-    '''https://www.youtube.com/watch?v=DEqiMEvJvV4&list=PLUDwpEzHYYLvA7QFkC1C0y0pDPqYS56iU&index=3&ab_channel=SDET-QAAutomationTechie'''
+## Vs Code Extension
+    > Better Comment
+    > Add Only
+    > [Deprecated] Bracket Pair Colorizer 2
+    > Atom Keymap
+    > Cypress Fixture-IntelliSense
+    > Cypress Snippets
+    > ES6 Mocha Snippets
+    > Prettier - Code formatter
 
 | Sno | Title & Learning                                                                                      |
 | --- | ----------------------------------------------------------------------------------------------------- |
